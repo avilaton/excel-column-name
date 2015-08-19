@@ -19,8 +19,8 @@ exports.excelColToInt = function (colName) {
     number = 0;
 
   for (var i = 0; i < digits.length; i++) {
-    number += (digits[i].charCodeAt(0) - 64)*Math.pow(26, digits.length - i - 1)
-  };
+    number += (digits[i].charCodeAt(0) - 64)*Math.pow(26, digits.length - i - 1);
+  }
 
   return number;    
 };

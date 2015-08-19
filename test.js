@@ -82,4 +82,4 @@ describe('excelColToInt', function () {
 		assert.strictEqual(excelColToInt('AEZ'), 832);
 		assert.strictEqual(excelColToInt('AFA'), 833);
 	});
-})
+});

@@ -1,6 +1,15 @@
 {
   "name": "excel-column-name",
   "version": "1.0.0",
+  "license": "MIT",
+  "repository": "avilaton/excel-column-names",
+  "author": {
+    "name": "Gaston Avila",
+    "email": "avila.gas@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
   "description": "Converts Zero based index to Excel Column name and back",
   "main": "index.js",
   "dependencies": {},
@@ -10,6 +19,13 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
-  "license": "ISC"
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "string",
+    "excel",
+    "column",
+    "integer"
+  ]
 }
