@@ -16,7 +16,7 @@ $ npm install --save excel-column-name
 var excelColumnName = require('excel-column-name');
 
 excelColumnName.intToExcelCol(287) == 'KA';
-excelColumnName.intToExcelCol('KA') == 287;
+excelColumnName.excelColToInt('KA') == 287;
 ```
 
 
