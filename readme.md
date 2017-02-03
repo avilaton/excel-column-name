@@ -1,6 +1,6 @@
 # excel-column-name [![Build Status](https://travis-ci.org/avilaton/excel-column-name.svg?branch=master)](https://travis-ci.org/avilaton/excel-column-name)
 
-> Converts zero based index to Excel column name and back
+> Converts one based index to Excel column name and back
 
 
 ## Install
