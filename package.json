@@ -1,6 +1,6 @@
 {
   "name": "excel-column-name",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "repository": "avilaton/excel-column-names",
   "author": {
@@ -10,7 +10,7 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "description": "Converts Zero based index to Excel Column name and back",
+  "description": "Converts One based index to Excel Column name and back",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
